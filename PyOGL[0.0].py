@@ -3,6 +3,7 @@ from pygame import*
 from OpenGL.GL import*
 from OpenGL.GLU import*
 
+lanb = 3
 verticies = ((1,-1,-1), (1,1,-1), (-1,1,-1), (-1,-1,-1), (1,-1,1), (1,1,1), (-1,-1,1), (-1,1,1))
 edges = ((0, 1),
          (0, 3),
